@@ -1,0 +1,21 @@
+{
+    "name": "ejklock/backend-challenge",
+    "scripts": {
+        "test": "phpunit tests"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ejklock\\BackendChallenge\\": "src/",
+            "Ejklock\\BackendChallenge\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Evaldo Klock",
+            "email": "neto.nemesis@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
